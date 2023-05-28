@@ -1,0 +1,17 @@
+{
+  "name": "revsh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "s00o1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "exploit": "node remote.js",
+    "bdshell": "nodemon reverse-shell.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1"
+  }
+}
